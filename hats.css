@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  height: 100%;
+  background-color: #fff6ff;
+}
+
+.jumbotron {
+  background-color: #edd0ed;
+}
+
+#navbar {
+  background: #edd0ed;
+  position: fixed;
+  width: 100%;
+  top: -100px;
+  transition: top 0.5s;
+  z-index: 5;
+  min-height: 50px;
+}
+
+.navbar {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+.navbar a {
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar-fixed-top {
+  min-height: 40px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  line-height: 40px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+#navbar a:hover {
+  color: whitesmoke;
+  transition: 0.6s;
+}
+
+h5 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+}
+.filter-button {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter-button:hover {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.filter-button:focus,
+.filter-button:active {
+  outline: none !important;
+  box-shadow: none;
+  background-color: #edd0ed;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+.img-responsive {
+  border-radius: 3px;
+}
+.img-responsive:hover {
+
+  transition: ease-in: 0.5s;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#fees {
+  width: auto;
+  height: 100%;
+}
+
+.price {
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+
+div .form-control {
+  padding: 0;
+}
+
+.footer.jumbotron {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.footer.jumbotron p {
+  margin-bottom: 0;
+}
